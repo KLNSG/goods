@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="text-align: center;background:url('images/111.jpg') no-repeat;background-size: cover">
+<div style="margin-top: 300px;">
+    <select id="Ding" style="font-size: 25px;width: 240px;height: 60px">
+        <option value="0">请选择区域:</option>
+        <option value="1">朝阳区订单</option>
+        <option value="2">海淀区订单</option>
+        <option value="3">东城区订单</option>
+    </select>
+    <button style="margin-left: 10px;font-size: 20px;width: 60px;height: 40px" onclick="a()">查询</button>
+</div>
+<div style="text-align: center;margin-top: 50px;">
+    <table style="border: 2px black solid;font-size: 25px;margin-left: 32%">
+        <tr>
+            <td>商品编号</td>
+            <td>商品名称</td>
+            <td>商品价格</td>
+            <td>商品数量</td>
+            <td>订单状态</td>
+            <td>操作</td>
+        </tr>
+        <tr th:each="Good:*{AllGood}" th:switch="${Good.status}">
+            <td th:text="${Good.id}"></td>
+            <td th:text="${Good.name}"></td>
+            <td th:text="${Good.price}"></td>
+            <td th:text="${Good.count}"></td>
+            <td th:case="0" th:text="待处理"></td>
+            <td th:case="1" th:text="处理中"></td>
+            <td th:case="2" th:text="已处理"></td>
+            <td><a th:href="@{/(id=${Good.id})}">修改</a></td>
+        </tr>
+    </table>
+</div>
+<div th:if="${goodbyID!=null}">
+    <form action="/update">
+    <table>
+        <tr>
+            <td>商品编号</td>
+            <td><input name="id" type="text" th:value="${goodbyID.id}" readonly></td>
+        </tr>
+        <tr>
+            <td>商品名称</td>
+            <td><input name="name" type="text" th:value="${goodbyID.name}"></td>
+        </tr>
+        <tr>
+            <td>商品价格</td>
+            <td><input name="price" type="text" th:value="${goodbyID.price}"></td>
+        </tr>
+        <tr>
+            <td>商品数量</td>
+            <td><input name="count" type="text" th:value="${goodbyID.count}"></td>
+        </tr>
+        <tr>
+            <td>订单状态</td>
+            <td><select name="status" th:switch="${goodbyID.status}">
+                <option th:case="0" value="0">未处理</option>
+                <option th:case="1" value="1">处理中</option>
+                <option th:case="2" value="2">已处理</option>
+                <option th:if="${goodbyID.status!='0'}"  value="0">未处理</option>
+                <option th:if="${goodbyID.status!='1'}" value="1">处理中</option>
+                <option th:if="${goodbyID.status!='2'}" value="2">已处理</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="确定"></td>
+        </tr>
+    </table>
+    </form>
+</div>
+</body>
+<script <!--th:inline="javascript" /* [[${goods.status}]]*/-->>
+    function a() {
+        var ding=document.getElementById("Ding").value;
+
+        if (ding!=0){
+          window.location.href="/?district="+ding
+        } else {
+            alert("请选择订单")
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.goods.dao.GoodsMapper">
+    <resultMap id="GoodMap" type="Goods">
+        <id column="id" property="id"/>
+        <result column="goods_name" property="name"/>
+        <result column="bill_status" property="status"/>
+        <result column="goods_district" property="district"/>
+        <result column="goods_price" property="price"/>
+        <result column="goods_count" property="count"/>
+        <result column="creation_time" property="time" />
+    </resultMap>
+    <select id="findGoods" parameterType="java.lang.Integer" resultMap="GoodMap">
+        select id, goods_name, bill_status, goods_district, goods_price, goods_count, creation_time from goods
+        <trim prefix="WHERE" prefixOverrides="AND |OR">
+            <if test="id!=null">
+                and id= #{id}
+            </if>
+            <if test="district!=null">
+                and goods_district=#{district}
+            </if>
+        </trim>
+    </select>
+    <update id="update" parameterType="Goods">
+        update goods set goods_name=#{name},goods_price=#{price},goods_count=#{count},bill_status=#{status} where id=#{id}
+    </update>
+</mapper>

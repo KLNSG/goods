@@ -1,0 +1,848 @@
+2019-06-26 01:21:37.719 DEBUG 13737 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:21:37.724 DEBUG 13737 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:21:37.729 DEBUG 13737 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:21:37.732 DEBUG 13737 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:21:38.017 DEBUG 13737 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:21:38.019 DEBUG 13737 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:21:38.021 DEBUG 13737 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:21:38.022 DEBUG 13737 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:21:38.022 DEBUG 13737 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:21:38.024 DEBUG 13737 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:21:38.025 DEBUG 13737 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:21:38.026 DEBUG 13737 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:21:38 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:21:38.027 DEBUG 13737 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:21:43.331 DEBUG 13737 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/?district=2", parameters={masked}
+2019-06-26 01:21:43.335 DEBUG 13737 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:21:43.442 DEBUG 13737 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:21:43.445 DEBUG 13737 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:21:43.471 DEBUG 13737 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:21:43.474 DEBUG 13737 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:21:43.475 DEBUG 13737 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:21:43.476 DEBUG 13737 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:21:43.478 DEBUG 13737 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:21:43.481 DEBUG 13737 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:21:43.483 DEBUG 13737 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:21:43.484 DEBUG 13737 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:21:43 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:21:43.485 DEBUG 13737 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:21:51.160  INFO 13737 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-26 01:21:51.161  INFO 13737 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-06-26 01:21:51.164  INFO 13737 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-06-26 01:30:01.595  INFO 14565 --- [main] com.example.goods.GoodsApplication       : Starting GoodsApplication on lv-computer with PID 14565 (/home/lvxin/IdeaProjects/goods/target/classes started by lvxin in /home/lvxin/IdeaProjects/goods)
+2019-06-26 01:30:01.597  INFO 14565 --- [main] com.example.goods.GoodsApplication       : No active profile set, falling back to default profiles: default
+2019-06-26 01:30:02.493  INFO 14565 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b7058d30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-26 01:30:02.650  INFO 14565 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-26 01:30:02.664  INFO 14565 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-26 01:30:02.664  INFO 14565 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-26 01:30:02.713  INFO 14565 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-26 01:30:02.713 DEBUG 14565 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-06-26 01:30:02.714  INFO 14565 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1080 ms
+2019-06-26 01:30:03.429 DEBUG 14565 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-06-26 01:30:03.501  INFO 14565 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-26 01:30:03.509 DEBUG 14565 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-06-26 01:30:03.540 DEBUG 14565 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-06-26 01:30:03.549 DEBUG 14565 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-06-26 01:30:03.555 DEBUG 14565 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-06-26 01:30:03.724  INFO 14565 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-26 01:30:03.770  INFO 14565 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-26 01:30:03.772  INFO 14565 --- [main] com.example.goods.GoodsApplication       : Started GoodsApplication in 2.427 seconds (JVM running for 2.792)
+2019-06-26 01:30:04.295  INFO 14565 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-26 01:30:04.296  INFO 14565 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-26 01:30:04.296  WARN 14565 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-06-26 01:30:04.296  INFO 14565 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-26 01:30:04.297 DEBUG 14565 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-06-26 01:30:04.303 DEBUG 14565 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-06-26 01:30:04.303  INFO 14565 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-06-26 01:30:04.590  INFO 14565 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-26 01:30:09.433 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:30:09.440 DEBUG 14565 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:30:09.505 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:30:09.796 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:30:09.814 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:30:09.818 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:30:09.819 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:30:09.820 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:30:09.826 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:30:09.828 DEBUG 14565 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:30:09.838 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:30:09.839 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:30:09 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:30:09.854 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:30:09.857 DEBUG 14565 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-06-26 01:30:09.858 DEBUG 14565 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-06-26 01:30:09.871 DEBUG 14565 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:30:13.438 DEBUG 14565 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 01:30:13.442 DEBUG 14565 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:30:13.454 DEBUG 14565 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:30:13.460 DEBUG 14565 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:30:13.474 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:30:13.475 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:30:13.476 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:30:13.476 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:30:13.476 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:30:13.478 DEBUG 14565 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:30:13.478 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:30:13.478 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:30:13 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:30:13.480 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:30:17.084 DEBUG 14565 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/?district=2", parameters={masked}
+2019-06-26 01:30:17.088 DEBUG 14565 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:30:17.096 DEBUG 14565 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:30:17.100 DEBUG 14565 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:30:17.120 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:30:17.121 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:30:17.124 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:30:17.124 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:30:17.125 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:30:17.126 DEBUG 14565 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:30:17.127 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:30:17.127 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:30:17 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:30:17.128 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:30:19.988 DEBUG 14565 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 01:30:19.992 DEBUG 14565 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:30:20.001 DEBUG 14565 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:30:20.007 DEBUG 14565 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:30:20.022 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:30:20.023 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:30:20.024 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:30:20.024 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:30:20.024 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:30:20.025 DEBUG 14565 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:30:20.026 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:30:20.026 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:30:20 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:30:20.026 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:30:21.222 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 01:30:21.226 DEBUG 14565 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:30:21.242 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:30:21.250 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:30:21.259 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:30:21.260 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:30:21.261 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:30:21.261 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:30:21.262 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:30:21.263 DEBUG 14565 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:30:21.264 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:30:21.264 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:30:21 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:30:21.265 DEBUG 14565 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:30:25.238 DEBUG 14565 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=1", parameters={masked}
+2019-06-26 01:30:25.242 DEBUG 14565 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 01:30:25.350 DEBUG 14565 --- [http-nio-8080-exec-3] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 01:30:25.352 DEBUG 14565 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 01:30:25.360 DEBUG 14565 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:30:25.363 DEBUG 14565 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:30:25.371 DEBUG 14565 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:30:25.379 DEBUG 14565 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:30:25.396 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:30:25.397 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:30:25.398 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:30:25.398 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:30:25.399 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:30:25.401 DEBUG 14565 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:30:25.401 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:30:25.402 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:30:25 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:30:25.402 DEBUG 14565 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:30:27.106 DEBUG 14565 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 01:30:27.109 DEBUG 14565 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:30:27.119 DEBUG 14565 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:30:27.130 DEBUG 14565 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:30:27.146 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:30:27.147 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:30:27.148 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:30:27.148 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:30:27.149 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:30:27.150 DEBUG 14565 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:30:27.151 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:30:27.151 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:30:27 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:30:27.152 DEBUG 14565 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:30:31.013 DEBUG 14565 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=0", parameters={masked}
+2019-06-26 01:30:31.014 DEBUG 14565 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 01:30:31.175 DEBUG 14565 --- [http-nio-8080-exec-9] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 01:30:31.176 DEBUG 14565 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 01:30:31.183 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:30:31.184 DEBUG 14565 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:30:31.190 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:30:31.196 DEBUG 14565 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:30:31.213 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:30:31.214 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:30:31.216 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:30:31.217 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:30:31.217 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:30:31.219 DEBUG 14565 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:30:31.220 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:30:31.220 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:30:31 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:30:31.221 DEBUG 14565 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:36:05.545  INFO 14565 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-26 01:36:05.546  INFO 14565 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-06-26 01:36:05.550  INFO 14565 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-06-26 01:45:30.001  INFO 15027 --- [main] com.example.goods.GoodsApplication       : Starting GoodsApplication on lv-computer with PID 15027 (/home/lvxin/IdeaProjects/goods/target/classes started by lvxin in /home/lvxin/IdeaProjects/goods)
+2019-06-26 01:45:30.004  INFO 15027 --- [main] com.example.goods.GoodsApplication       : No active profile set, falling back to default profiles: default
+2019-06-26 01:45:30.888  INFO 15027 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32772f67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-26 01:45:31.072  INFO 15027 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-06-26 01:45:31.092  INFO 15027 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-26 01:45:31.093  INFO 15027 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-26 01:45:31.142  INFO 15027 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-26 01:45:31.143 DEBUG 15027 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-06-26 01:45:31.143  INFO 15027 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1114 ms
+2019-06-26 01:45:31.845 DEBUG 15027 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-06-26 01:45:31.917  INFO 15027 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-26 01:45:31.926 DEBUG 15027 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-06-26 01:45:31.957 DEBUG 15027 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2019-06-26 01:45:31.966 DEBUG 15027 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-06-26 01:45:31.973 DEBUG 15027 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-06-26 01:45:32.148  INFO 15027 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-26 01:45:32.195  INFO 15027 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-26 01:45:32.197  INFO 15027 --- [main] com.example.goods.GoodsApplication       : Started GoodsApplication in 2.438 seconds (JVM running for 2.79)
+2019-06-26 01:45:32.646  INFO 15027 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-26 01:45:32.647  INFO 15027 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-26 01:45:32.647  INFO 15027 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-26 01:45:32.648 DEBUG 15027 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2019-06-26 01:45:32.648  WARN 15027 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-06-26 01:45:32.655 DEBUG 15027 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2019-06-26 01:45:32.655  INFO 15027 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2019-06-26 01:45:32.958  INFO 15027 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-26 01:45:38.673 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:45:38.680 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:45:38.747 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:45:39.024 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:45:39.033 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:45:39.038 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:45:39.040 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:45:39.040 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:45:39.045 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:45:39.047 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:45:39.059 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:45:39.060 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:45:39 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:45:39.075 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:45:39.078 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2019-06-26 01:45:39.079 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2019-06-26 01:45:39.092 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:45:45.041 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 01:45:45.045 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:45:45.055 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:45:45.060 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:45:45.075 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:45:45.077 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:45:45.078 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:45:45.078 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:45:45.079 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:45:45.080 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:45:45.081 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:45:45.081 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:45:45 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:45:45.081 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:45:47.869 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/?district=2", parameters={masked}
+2019-06-26 01:45:47.874 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:45:47.883 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:45:47.888 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:45:47.904 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:45:47.906 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:45:47.907 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:45:47.907 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:45:47.908 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:45:47.909 DEBUG 15027 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:45:47.910 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:45:47.910 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:45:47 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:45:47.911 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:45:51.161 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/?district=3", parameters={masked}
+2019-06-26 01:45:51.164 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:45:51.172 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:45:51.175 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:45:51.193 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:45:51.195 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:45:51.196 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:45:51.196 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:45:51.196 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:45:51.198 DEBUG 15027 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:45:51.198 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:45:51.199 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:45:51 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:45:51.199 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:45:53.711 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 01:45:53.713 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:45:53.719 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:45:53.722 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:45:53.731 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:45:53.732 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:45:53.733 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:45:53.733 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:45:53.733 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:45:53.735 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:45:53.737 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:45:53.737 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:45:53 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:45:53.738 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:45:55.710 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 01:45:55.713 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:45:55.732 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:45:55.743 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:45:55.754 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:45:55.755 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:45:55.756 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:45:55.757 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:45:55.758 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:45:55.759 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:45:55.760 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:45:55.760 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:45:55 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:45:55.761 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:46:07.151 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=0", parameters={masked}
+2019-06-26 01:46:07.155 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 01:46:07.349 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 01:46:07.352 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 01:46:07.361 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:46:07.364 DEBUG 15027 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:46:07.370 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:46:07.377 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:46:07.393 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:46:07.395 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:46:07.396 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:46:07.396 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:46:07.396 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:46:07.397 DEBUG 15027 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:46:07.397 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:46:07.397 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:46:07 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:46:07.398 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:58:41.869 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:58:41.870 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:58:41.872 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:58:41.875 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:58:42.224 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:58:42.225 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:58:42.226 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:58:42.226 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:58:42.227 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:58:42.228 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:58:42.229 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:58:42.230 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:58:42 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:58:42.231 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:58:46.756 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 01:58:46.757 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:58:46.762 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:58:46.767 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:58:46.783 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:58:46.784 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:58:46.785 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:58:46.785 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:58:46.786 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:58:46.788 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:58:46.788 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:58:46.789 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:58:46 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:58:46.790 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:58:49.421 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/?district=2", parameters={masked}
+2019-06-26 01:58:49.424 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:58:49.434 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:58:49.438 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:58:49.459 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:58:49.461 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:58:49.462 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:58:49.462 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:58:49.463 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:58:49.466 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:58:49.467 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:58:49.467 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:58:49 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:58:49.467 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:58:53.272 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 01:58:53.274 DEBUG 15027 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:58:53.284 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:58:53.289 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:58:53.304 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:58:53.305 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:58:53.306 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:58:53.306 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:58:53.307 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:58:53.307 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:58:53.308 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:58:53.308 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:58:53 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:58:53.309 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:58:55.134 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 01:58:55.135 DEBUG 15027 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:58:55.138 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:58:55.141 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:58:55.151 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:58:55.152 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:58:55.153 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:58:55.153 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:58:55.154 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:58:55.154 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:58:55.155 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:58:55.155 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:58:55 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:58:55.155 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:58:59.747 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=2", parameters={masked}
+2019-06-26 01:58:59.748 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 01:58:59.900 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 01:58:59.901 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 01:58:59.908 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:58:59.909 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:58:59.916 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:58:59.921 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:58:59.948 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:58:59.950 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:58:59.951 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:58:59.951 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:58:59.951 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:58:59.952 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:58:59.953 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:58:59.954 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:58:59 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:58:59.955 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:59:01.810 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 01:59:01.813 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:59:01.820 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:59:01.830 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:59:01.843 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:59:01.844 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:59:01.844 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:59:01.845 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:59:01.845 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:59:01.846 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:59:01.846 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:59:01.847 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:59:01 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:59:01.848 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:59:09.381 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=0", parameters={masked}
+2019-06-26 01:59:09.384 DEBUG 15027 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 01:59:09.539 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 01:59:09.540 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 01:59:09.546 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:59:09.548 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:59:09.569 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:59:09.573 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:59:09.597 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:59:09.599 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:59:09.600 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:59:09.600 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:59:09.601 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:59:09.602 DEBUG 15027 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:59:09.603 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:59:09.603 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:59:09 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:59:09.605 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:59:11.465 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 01:59:11.466 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:59:11.470 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:59:11.472 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:59:11.483 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:59:11.484 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:59:11.484 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:59:11.484 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:59:11.485 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:59:11.485 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:59:11.486 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:59:11.486 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:59:11 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:59:11.487 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 01:59:13.478 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=0", parameters={masked}
+2019-06-26 01:59:13.478 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 01:59:13.525 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 01:59:13.526 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 01:59:13.532 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 01:59:13.533 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 01:59:13.540 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 01:59:13.544 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 01:59:13.569 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 01:59:13.571 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 01:59:13.572 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 01:59:13.573 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 01:59:13.574 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 01:59:13.577 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 01:59:13.578 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 01:59:13.578 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 01:59:13 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 01:59:13.580 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:05:16.366 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:05:16.366 DEBUG 15027 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:05:16.370 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:05:16.373 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:05:16.799 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:05:16.800 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:05:16.801 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:05:16.801 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:05:16.802 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:05:16.802 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:05:16.803 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:05:16.803 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:05:16 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:05:16.804 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:09:37.975 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/?district=3", parameters={masked}
+2019-06-26 02:09:37.976 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:09:37.981 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:09:37.982 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:09:37.996 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:09:37.997 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:09:37.998 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:09:37.998 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:09:37.998 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:09:37.999 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:09:38.000 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:09:38.000 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:09:37 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:09:38.001 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:09:40.861 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 02:09:40.863 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:09:40.876 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:09:40.880 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:09:40.896 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:09:40.897 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:09:40.899 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:09:40.899 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:09:40.900 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:09:40.901 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:09:40.901 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:09:40.902 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:09:40 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:09:40.903 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:09:42.134 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 02:09:42.136 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:09:42.145 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:09:42.152 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:09:42.175 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:09:42.176 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:09:42.176 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:09:42.176 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:09:42.177 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:09:42.178 DEBUG 15027 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:09:42.178 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:09:42.179 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:09:42 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:09:42.180 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:09:47.223 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=2", parameters={masked}
+2019-06-26 02:09:47.224 DEBUG 15027 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 02:09:47.382 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 02:09:47.383 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 02:09:47.389 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:09:47.390 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:09:47.396 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:09:47.403 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:09:47.425 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:09:47.426 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:09:47.427 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:09:47.427 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:09:47.427 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:09:47.428 DEBUG 15027 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:09:47.429 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:09:47.430 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:09:47 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:09:47.432 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:09:49.034 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 02:09:49.035 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:09:49.045 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:09:49.052 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:09:49.071 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:09:49.072 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:09:49.073 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:09:49.073 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:09:49.073 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:09:49.074 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:09:49.074 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:09:49.074 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:09:49 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:09:49.075 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:09:53.643 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=0", parameters={masked}
+2019-06-26 02:09:53.646 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 02:09:53.810 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 02:09:53.811 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 02:09:53.817 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:09:53.819 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:09:53.825 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:09:53.829 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:09:53.853 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:09:53.854 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:09:53.855 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:09:53.855 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:09:53.856 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:09:53.857 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:09:53.857 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:09:53.857 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:09:53 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:09:53.858 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:19:17.150 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:19:17.151 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:19:17.158 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:19:17.160 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:19:17.420 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:19:17.421 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:19:17.422 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:19:17.422 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:19:17.422 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:19:17.422 DEBUG 15027 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:19:17.423 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:19:17.423 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:19:17 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:19:17.426 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:19:19.533 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 02:19:19.533 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:19:19.536 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:19:19.538 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:19:19.547 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:19:19.548 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:19:19.549 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:19:19.550 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:19:19.550 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:19:19.551 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:19:19.551 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:19:19.552 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:19:19 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:19:19.552 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:19:21.386 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 02:19:21.388 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:19:21.397 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:19:21.405 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:19:21.422 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:19:21.422 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:19:21.423 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:19:21.423 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:19:21.423 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:19:21.424 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:19:21.424 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:19:21.424 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:19:21 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:19:21.425 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:19:27.039 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=2", parameters={masked}
+2019-06-26 02:19:27.041 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 02:19:27.231 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 02:19:27.231 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 02:19:27.238 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:19:27.239 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:19:27.244 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:19:27.248 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:19:27.269 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:19:27.269 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:19:27.270 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:19:27.270 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:19:27.271 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:19:27.271 DEBUG 15027 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:19:27.272 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:19:27.272 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:19:27 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:19:27.273 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:19:28.698 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 02:19:28.699 DEBUG 15027 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:19:28.707 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:19:28.713 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:19:28.733 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:19:28.734 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:19:28.735 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:19:28.735 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:19:28.735 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:19:28.736 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:19:28.737 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:19:28.737 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:19:28 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:19:28.738 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:19:33.079 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=0", parameters={masked}
+2019-06-26 02:19:33.080 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 02:19:33.236 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 02:19:33.237 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 02:19:33.244 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:19:33.245 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:19:33.251 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:19:33.255 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:19:33.275 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:19:33.275 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:19:33.276 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:19:33.276 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:19:33.277 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:19:33.277 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:19:33.278 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:19:33.278 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:19:33 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:19:33.279 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:19:36.338 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/?district=2", parameters={masked}
+2019-06-26 02:19:36.338 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:19:36.341 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:19:36.343 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:19:36.353 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:19:36.354 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:19:36.354 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:19:36.354 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:19:36.354 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:19:36.355 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:19:36.355 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:19:36.355 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:19:36 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:19:36.356 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:19:38.717 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 02:19:38.718 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:19:38.720 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:19:38.722 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:19:38.731 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:19:38.732 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:19:38.732 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:19:38.732 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:19:38.733 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:19:38.734 DEBUG 15027 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:19:38.734 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:19:38.734 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:19:38 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:19:38.735 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:19:47.422 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 02:19:47.422 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:19:47.427 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:19:47.429 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:19:47.443 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:19:47.444 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:19:47.445 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:19:47.445 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:19:47.446 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:19:47.447 DEBUG 15027 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:19:47.447 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:19:47.448 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:19:47 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:19:47.449 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:47:41.135 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:47:41.135 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:47:41.140 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:47:41.142 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:47:41.660 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:47:41.661 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:47:41.661 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:47:41.661 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:47:41.662 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:47:41.662 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:47:41.662 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:47:41.663 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:47:41 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:47:41.663 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:47:44.662 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 02:47:44.664 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:47:44.673 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:47:44.677 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:47:44.701 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:47:44.702 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:47:44.703 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:47:44.703 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:47:44.704 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:47:44.705 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:47:44.705 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:47:44.705 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:47:44 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:47:44.706 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:48:44.746 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 02:48:44.748 DEBUG 15027 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:48:44.756 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:48:44.760 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:48:44.782 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:48:44.782 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:48:44.783 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:48:44.783 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:48:44.784 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:48:44.784 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:48:44.784 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:48:44.785 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:48:44 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:48:44.785 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:48:47.410 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 02:48:47.411 DEBUG 15027 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:48:47.418 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:48:47.423 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:48:47.444 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:48:47.445 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:48:47.446 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:48:47.446 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:48:47.446 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:48:47.447 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:48:47.448 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:48:47.448 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:48:47 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:48:47.448 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:48:57.637 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=yif&price=20&count=15&status=0", parameters={masked}
+2019-06-26 02:48:57.639 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 02:48:57.904 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 02:48:57.904 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 02:48:57.910 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:48:57.911 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:48:57.915 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:48:57.917 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:48:57.939 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:48:57.940 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:48:57.941 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:48:57.942 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:48:57.943 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:48:57.944 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:48:57.944 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:48:57.944 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:48:57 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:48:57.945 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:48:59.809 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 02:48:59.810 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:48:59.817 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:48:59.821 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:48:59.844 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:48:59.845 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:48:59.846 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:48:59.846 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:48:59.846 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:48:59.847 DEBUG 15027 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:48:59.847 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:48:59.848 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:48:59 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:48:59.849 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:49:13.470 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=0", parameters={masked}
+2019-06-26 02:49:13.471 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 02:49:13.722 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 02:49:13.723 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 02:49:13.726 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:49:13.727 DEBUG 15027 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:49:13.729 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:49:13.731 DEBUG 15027 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:49:13.744 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:49:13.745 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:49:13.746 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:49:13.746 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:49:13.747 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:49:13.748 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:49:13.748 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:49:13.748 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:49:13 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:49:13.749 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:49:54.102 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 02:49:54.103 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:49:54.113 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:49:54.118 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:49:54.138 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:49:54.139 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:49:54.140 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:49:54.140 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:49:54.141 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:49:54.142 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:49:54.142 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:49:54.143 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:49:54 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:49:54.143 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:49:56.529 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=20&count=15&status=0", parameters={masked}
+2019-06-26 02:49:56.529 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 02:49:56.704 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 02:49:56.705 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 02:49:56.711 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:49:56.712 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:49:56.717 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:49:56.720 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:49:56.743 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:49:56.744 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:49:56.746 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:49:56.746 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:49:56.747 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:49:56.748 DEBUG 15027 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:49:56.749 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:49:56.749 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:49:56 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:49:56.750 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:50:02.065 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/?district=3", parameters={masked}
+2019-06-26 02:50:02.066 DEBUG 15027 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:50:02.073 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:50:02.075 DEBUG 15027 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:50:02.100 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:50:02.101 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:50:02.102 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:50:02.102 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:50:02.102 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:50:02.103 DEBUG 15027 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:50:02.103 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:50:02.103 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:50:02 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:50:02.104 DEBUG 15027 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:50:05.064 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/?district=1", parameters={masked}
+2019-06-26 02:50:05.065 DEBUG 15027 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:50:05.073 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:50:05.076 DEBUG 15027 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:50:05.093 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:50:05.093 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:50:05.094 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:50:05.095 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:50:05.095 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:50:05.096 DEBUG 15027 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:50:05.096 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:50:05.096 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:50:05 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:50:05.097 DEBUG 15027 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:50:08.269 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/?id=1", parameters={masked}
+2019-06-26 02:50:08.270 DEBUG 15027 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:50:08.278 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:50:08.284 DEBUG 15027 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:50:08.308 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:50:08.309 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:50:08.310 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:50:08.310 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:50:08.311 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:50:08.313 DEBUG 15027 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:50:08.313 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:50:08.314 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:50:08 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:50:08.314 DEBUG 15027 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2019-06-26 02:50:13.639 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/update?id=1&name=%E8%A1%A3%E6%9C%8D&price=21&count=15&status=0", parameters={masked}
+2019-06-26 02:50:13.640 DEBUG 15027 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.update(com.example.goods.domain.Goods)
+2019-06-26 02:50:13.836 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.view.RedirectView        : View name 'redirect:/', model {}
+2019-06-26 02:50:13.837 DEBUG 15027 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2019-06-26 02:50:13.842 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2019-06-26 02:50:13.843 DEBUG 15027 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public java.lang.String com.example.goods.conTroller.goodConTroller.findgood(org.springframework.ui.Model,java.lang.Integer,java.lang.Integer)
+2019-06-26 02:50:13.848 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8]
+2019-06-26 02:50:13.850 DEBUG 15027 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2019-06-26 02:50:13.866 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/images/111.jpg", parameters={}
+2019-06-26 02:50:13.867 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2019-06-26 02:50:13.868 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2019-06-26 02:50:13.868 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2019-06-26 02:50:13.868 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2019-06-26 02:50:13.869 DEBUG 15027 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-26 02:50:13.869 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2019-06-26 02:50:13.869 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Wed Jun 26 02:50:13 EDT 2019, status=404, error=Not Found, message=No message available,  (truncated)...]
+2019-06-26 02:50:13.870 DEBUG 15027 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
